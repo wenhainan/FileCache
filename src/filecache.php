@@ -5,7 +5,7 @@ namespace wenhainan;
 /**
  * FileCache操作类
  */
-class FileCache
+class filecache
 {
     CONST PATH = (PATH_SEPARATOR==';'?'c:/tmp/filecache':'/tmp/filecache' );
     protected $options = [

@@ -1,10 +1,10 @@
 {
-    "name": "wenhainan/FileCache",
+    "name": "wenhainan/filecache",
     "description": "Lightweight  filecache 轻量级的文件缓存",
-    "homepage": "https://github.com/wenhainan/FileCache",
+    "homepage": "https://github.com/wenhainan/filecache",
     "license": "Apache-2.0",
     "minimum-stability": "stable",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "authors": [
         {
             "name": "wenhainan",
@@ -12,7 +12,7 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/wenhainan/FileCache/issues"
+        "issues": "https://github.com/wenhainan/filecache/issues"
     },
     "require": {
         "php": ">=5.6.0"
