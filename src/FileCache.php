@@ -1,6 +1,6 @@
 <?php
 
-namespace think\wenhainan;
+namespace wenhainan;
 
 /**
  * FileCache操作类
