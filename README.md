@@ -8,17 +8,17 @@ composer require  wenhainan/filecache
 ## 如何使用
 ```php
 use wenhainan\filecache;
-//例如 生成一个随机token字符串  这个是自带的一个工具 
+//confi. it has a default config.
 $config = [
     'expire'=>3600,      //expire time , unit seconds
     'path' =>'./cache'  //self dir
 ];
-$cache = new filecache();
-//设置缓存
+$cache = new filecache($config);
+//设置缓存 set key cache
 $cache->set('key','value',60);   //set key = value  expire = 60s
-//获取缓存
+//获取缓存  get key cache
 $cache->get('key');
-//删除缓存
+//删除缓存  delete cache 
 $cache->del('key');  
 ```
 
