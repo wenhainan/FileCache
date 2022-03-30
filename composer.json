@@ -1,0 +1,25 @@
+{
+    "name": "wenhainan/FileCache",
+    "description": "Lightweight  filecache 轻量级的文件缓存",
+    "homepage": "https://github.com/wenhainan/FileCache",
+    "license": "Apache-2.0",
+    "minimum-stability": "stable",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "wenhainan",
+            "email": "610176732@qq.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/wenhainan/FileCache/issues"
+    },
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "wenhainan\\": "src/"
+        }
+    }
+}
