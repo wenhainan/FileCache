@@ -2,7 +2,7 @@
 -  轻量级,无依赖的本地文件缓存扩展
 ## 安装 
 ```shell
-composer require  wenhainan/FileCache
+composer require  wenhainan/filecache
 ```
 
 ## 如何使用
