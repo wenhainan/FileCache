@@ -15,7 +15,8 @@
         "issues": "https://github.com/wenhainan/filecache/issues"
     },
     "require": {
-        "php": ">=5.6.0"
+        "php": ">=5.6.0",
+        "ext-json": "*"
     },
     "autoload": {
         "psr-4": {

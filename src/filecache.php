@@ -74,6 +74,7 @@ class filecache
     // 获取缓存文件名
     public function getCacheKey($name)
     {
+        $name = md5($name);
         $file_path = $this->options['path']."/".$name.'_cache.php';
         @chmod($file_path,0777);
         return $file_path;
